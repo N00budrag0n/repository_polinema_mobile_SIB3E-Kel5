@@ -21,19 +21,19 @@
    ```bash
    composer update
    ```
-5. Jalankan migrasi proyek laravel menggunakan perintah: 
+7. Jalankan migrasi proyek laravel menggunakan perintah: 
     ```bash
     php artisan migrate
     ```
-6. Jalankan command berikut untuk menyalin file .env.example menjadi file .env 
+5. Jalankan command berikut untuk menyalin file .env.example menjadi file .env 
    ```bash
    cp .env.example .env
    ```
-7. Isi database menggunakan perintah:
+8. Isi database menggunakan perintah:
     ```bash
     php artisan db:seed --class=StudentComplaintSurveySeeder
     ```
-8. Jalankan command berikut untuk mendapatkan kunci enkripsi aplikasi.
+6. Jalankan command berikut untuk mendapatkan kunci enkripsi aplikasi.
    ```bash
    php artisan key:generate
    ```
